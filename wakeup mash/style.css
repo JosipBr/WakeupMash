@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height:200px;
+    align-content: center;
+}
+
+nav div#lft{
+    width: 50%;
+   
+}
+
+nav a{
+    
+    padding: 35px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: arial,italic;
+    
+}
+
+nav a:hover{
+    color:#c82910;
+}
+
+nav div#rgt{
+    
+    width: 50%;
+    margin-top: 80px;
+    
+    
+}
+
+body{
+    background-color:#282828
+}
+
+.begin img{
+    width: 100%;
+    opacity: 70%;
+}
+
+.begin{
+    position: relative;
+}
+
+.message{
+    position: absolute;
+    top: 20%;  
+    margin-left: 150px;  
+}
+
+.message h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60pt;
+    color: white;
+    width:700px;
+    height: 500px;
+}
+
+.red{
+    margin-top: 40px;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.heading{
+    justify-content:start;
+    display: flex;
+    overflow: hidden;
+    color: white;
+    font-size: 20pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    
+    
+
+}
+
+.heading img{
+    position: relative;
+    margin-left: 30px;
+}
+
+.heading h1{
+    font-size: 40pt;
+    position:absolute;
+    margin-left: 80px;
+    margin-top: 15px;
+    
+}
+
+/*NEWS BOXES*/
+
+.parts{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.boxes{
+    width: 400px;
+    padding-bottom: 20px;
+    
+}
+
+.images{
+    text-align: center;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.text{
+    
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(152, 41, 25, 70%);
+    padding: 30px;
+    font-size: 30px;
+}
+
+.date{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(152, 41, 25, 70%);
+    padding: 10px;
+}
+
+.date p{
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fleft{
+    font-size: 20pt;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 110px;
+    text-align: left;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.fright{
+    margin-left: 120px;
+    margin-top: 65px;
+    font-size: 20pt;
+    text-align: left;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.pone{
+    font-size: 15pt;
+}
+
+.parts a{
+    text-decoration: none;
+}
+
